@@ -15,7 +15,7 @@ public class Main {
 	
 		BaseCustomerManager baseCustomerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
 		
-		baseCustomerManager.save(new Customer(1, "Fatmanur", "�merli", LocalDate.of(2001, 4, 23), "51208450500"));
+		baseCustomerManager.save(new Customer(1, "Fatmanur", "Ömerli", LocalDate.of(2001, 4, 23), "5586686860")); // gerçek tc gerekir
 	
 	}
 
